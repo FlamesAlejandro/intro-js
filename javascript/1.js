@@ -23,23 +23,25 @@ const number2 = 4;
 
 // funcion clasica
 function sumarNumeros(number1, number2) {
-    let result = number1 + number2;
+    const result = number1 + number2;
     return result
 }
 
 // funcion de flecha
 
 const sumarNumeros2 = (number1, number2) => {
-    let result2 = number1 + number2;
-    return result
+    const result2 = number1 + number2;
+    return result2
 }
 
 // funcion de flecha corta
-const sumarNumeros3 = (number1, number2) => { number1 + number2 }
+const sumarNumeros3 = (number1, number2) => number1 + number2
 
 // definimos esta funcion para que se muestre en el navegador, de forma de pruebas
 // ventana de alerta
-alert(sumarNumeros);
+alert(sumarNumeros(number1, number2));
+alert(sumarNumeros2(number1, number2));
+alert(sumarNumeros3(number1, number2));
 // consola del navegador
 console.log(sumarNumeros);
 
