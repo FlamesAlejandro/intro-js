@@ -36,3 +36,10 @@ const sumarNumeros2 = (number1, number2) => {
 
 // funcion de flecha corta
 const sumarNumeros3 = (number1, number2) => { number1 + number2 }
+
+// definimos esta funcion para que se muestre en el navegador, de forma de pruebas
+// ventana de alerta
+alert(sumarNumeros);
+// consola del navegador
+console.log(sumarNumeros);
+
